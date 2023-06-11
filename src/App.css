@@ -1,0 +1,35 @@
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(171,131,190);
+    background: linear-gradient(90deg, rgba(171,131,190,1) 0%, rgba(158,158,187,1) 50%, rgba(0,212,255,1) 100%);
+}
+.todo{
+    padding: 10px;
+}
+.todo .todo-input{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+}
+.todo .todo-input input{
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+    outline: none;
+}
+.todo .todo-input button{
+    height: 34px;
+    width: 36px;
+    cursor: pointer;
+}
+.todo .todo-input button i{
+    font-size: 1.2rem;
+}
+.todo-list{
+    padding: 10px 0;
+}
+.all-clear{
+    padding: 6px 15px;
+}
